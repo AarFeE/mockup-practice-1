@@ -8,7 +8,6 @@
 
 body {
     font-family: 'Roboto';
-    height: 100%;
 }
 
 .header {
@@ -93,7 +92,6 @@ h2 {
     background: url('src/products/sale_end.webp') center no-repeat fixed;
     background-size: cover;
     padding-top: 105px;
-    height: 100%;
 }
 
 .greetings {
@@ -124,6 +122,8 @@ h2 {
 
 .greetings-text h2 {
     font-size: 39px;
+    padding: 10px;
+    line-height: 40px;
 }
 
 .greetings-img {
@@ -297,7 +297,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px 60px;
+    padding: 20px 0;
     gap: 40px;
 }
 
@@ -333,6 +333,7 @@ h2 {
     outline: none;
     border: rgb(212, 212, 212) solid 2px;
     border-radius: 8px;
+    min-width: 100px;
 }
 
 .subscribe form button {
