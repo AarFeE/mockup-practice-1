@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto';
+    height: 100%;
 }
 
 .header {
@@ -91,7 +92,8 @@ h2 {
 .main {
     background: url('src/products/sale_end.webp') center no-repeat fixed;
     background-size: cover;
-    padding-top: 110px;
+    padding-top: 105px;
+    height: 100%;
 }
 
 .greetings {
